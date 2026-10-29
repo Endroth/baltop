@@ -1,0 +1,14 @@
+name: Baltop
+version: 1.0
+main: com.servidor.baltop.Baltop
+api-version: '1.21'
+depend: [Vault]
+commands:
+  baltop:
+    description: Mostra o top de dinheiro do servidor
+    usage: /baltop [página]
+    aliases: [topmoney, topdinheiro]
+permissions:
+  baltop.use:
+    description: Permite usar /baltop
+    default: true
